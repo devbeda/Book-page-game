@@ -192,6 +192,9 @@
     margin-top: 30%;
     margin-bottom: 30%;
   }
+  #play{
+    margin-left: 40%;
+  }
   .game-dashboard {
     gap: 2rem;
   }
