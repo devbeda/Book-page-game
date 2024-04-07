@@ -1,0 +1,250 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.topbar {
+  width: 100%;
+  height: 3rem;
+  background-color: coral;
+  text-align: center;
+  line-height: 3rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: bisque;
+}
+.welcome-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 34.37rem;
+}
+#name {
+  color: chocolate;
+}
+.div-para {
+  font-size: 2.5rem;
+  height: 10rem;
+}
+/* #name {
+  font-size: 2.5rem;
+} */
+#play {
+  font-size: 1.5rem;
+  background-color: antiquewhite;
+  color: brown;
+  border: 2px solid black;
+  display: inline;
+  margin-left: 45%;
+  margin-top: 10%;
+  padding: 0.37rem;
+  border-radius: 0.5rem;
+  box-shadow: 2px 2px 5px brown;
+}
+:hover#play {
+  cursor: pointer;
+  font-size: 1.58rem;
+}
+.username-container {
+  position: absolute;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+}
+.username-popup {
+  border-radius: 0.62rem;
+  border: 0.12rem solid black;
+  box-shadow: 2px 2px 7px brown;
+  height: 7.5rem;
+  width: 18.7rem;
+  background-color: wheat;
+  padding-top: 2.5rem;
+  text-align: center;
+}
+.username-popup p {
+  font-size: 1.2rem;
+}
+#username {
+  font-size: 1rem;
+  border-radius: 0.5rem;
+  padding: 0.37rem;
+}
+#enter {
+  font-size: 1.5rem;
+}
+.enter-arrow {
+  margin-top: 0.62rem;
+}
+:hover.enter-arrow {
+  cursor: pointer;
+}
+.game-dashboard {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 4.37rem;
+  display: none;
+  position: absolute;
+  top: 0;
+}
+#userdp {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+#userNameSection {
+  text-align: center;
+  font-size: 1.9rem;
+  color: chocolate;
+}
+#userscore {
+  text-align: center;
+  font-size: 1.6rem;
+  color: chocolate;
+  margin-bottom: 10px;
+}
+#userturn {
+  padding: 4px;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 1.1rem;
+  border: 2px solid black;
+  display: inline;
+  margin-left: 33px;
+  background-color: antiquewhite;
+  color: brown;
+  box-shadow: 2px 2px 5px brown;
+}
+:hover#userturn {
+  cursor: pointer;
+}
+#pages {
+  height: 5rem;
+  width: 4.37rem;
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  background-color: aliceblue;
+  color: brown;
+  box-shadow: 3px 3px 5px black;
+  margin-top: -3.12rem;
+  font-size: 1.6rem;
+}
+#pageno {
+  text-align: center;
+  line-height: 4.7rem;
+}
+
+#compdp {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 50%;
+}
+#compnamesection {
+  text-align: center;
+  font-size: 1.9rem;
+  color: chocolate;
+}
+#compscore {
+  text-align: center;
+  font-size: 1.6rem;
+  color: chocolate;
+}
+
+#winner-popup {
+  height: 15rem;
+  width: 40rem;
+  position: absolute;
+  top: 30%;
+  left: 29%;
+  display: none;
+  padding-top: 10%;
+  text-align: center;
+  background-color: wheat;
+  color: brown;
+}
+#winner-popup p {
+  font-size: 2.6rem;
+}
+#winner-popup button {
+  margin-top: 5px;
+  font-size: 0.9rem;
+  background-color: aliceblue;
+  color: brown;
+  padding: 5px;
+  border-radius: 6px;
+  box-shadow: 2px 2px 5px brown;
+}
+:hover#replay {
+  font-size: 1rem;
+}
+
+/* for mobile  */
+
+@media screen and (max-width: 500px) {
+  .div-para {
+    font-size: 2rem;
+  }
+  #name {
+    margin-top: 30%;
+    margin-bottom: 30%;
+  }
+  .game-dashboard {
+    gap: 2rem;
+  }
+
+  #userdp {
+    height: 7rem;
+    width: 7rem;
+  }
+  #userNameSection {
+    font-size: 1.1rem;
+  }
+  #userscore {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  #userturn {
+    padding: 3px;
+    border-radius: 6px;
+    font-size: 0.8rem;
+    margin-left: 22px;
+    border: 1.6px solid black;
+    box-shadow: 2px 2px 5px brown;
+  }
+
+  #pages {
+    height: 3.5rem;
+    width: 3.2rem;
+    border-top-right-radius: 0.6rem;
+    border-bottom-right-radius: 0.6rem;
+    box-shadow: 2.6px 2.6px 5px black;
+    margin-top: -3.12rem;
+    font-size: 1rem;
+  }
+  #pageno {
+    line-height: 3.5rem;
+  }
+
+  #compdp {
+    height: 7rem;
+    width: 7rem;
+  }
+  #compnamesection {
+    font-size: 1.1rem;
+  }
+  #compscore {
+    font-size: 1.2rem;
+  }
+
+  #winner-popup {
+    height: 10rem;
+    width: 100%;
+    top: 36%;
+    left: 0%;
+    padding-top: 10%;
+  }
+}
